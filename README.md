@@ -1,13 +1,18 @@
 # Multiple Products
 
-This module sets up Stripe for a single electronic product - e.g. a paywalled blog. 
+This module sets up Stripe for a multiple electronic products. The user can place those products
+in a shopping cart and pay together.
 
 ## Implementation
 
+### phx_gen_auth
+
+The user model is created using the [phx_gen_auth library](https://github.com/aaronrenner/phx_gen_auth).
+
+### Setting up migrations/models
 
 
 ## Common Instructions
-
 
 To start your Phoenix server:
 
